@@ -1,8 +1,4 @@
-Please put cec14_func.cpp and input_data folder with your algorithm in the same folder. Set this folder as the current path.
-1. run the following command in Matlab window:
-   mex cec14_func.cpp -DWINDOWS
-2. Then you can use the test functions as the following example:
-   f = cec14_func(x,func_num); 
-   here x is a D*pop_size matrix.
-3. main.m is an example test code with PSO algorithm.
+Learning-Enhanced Particle Swarm Optimization: Using Cerebellar Model Articulation Controller to Boost PSO Efficiency
+Nazmiye Ebru BULUT, Emre DANDIL, Ugur YUZGEC and Alpaslan DUYSAK
 
+The study integrates the Cerebellar Model Articulation Controller (CMAC) into the Particle Swarm Optimization (PSO) algorithm to enhance its performance. Instead of random numbers in the velocity update mechanism, two learning-capable variables are introduced and updated through CMAC training at each iteration. Additionally, a quantization-based initialization method and a new boundary control mechanism are implemented. 
